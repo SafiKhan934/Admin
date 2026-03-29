@@ -23,7 +23,9 @@ function AdminDashboard() {
       })
       .catch((err) => {
         console.error("Dashboard fetch error:", err)
-        alert("Error loading watches. Please check your connection or login again.")
+        alert(
+          "Error loading watches. Please check your connection or login again.",
+        )
         setLoading(false)
       })
   }, [])
@@ -57,7 +59,7 @@ function AdminDashboard() {
   return (
     <div className={styles.home}>
       {watches.length === 0 ? (
-        <div className={styles.loading}>No watches found.</div>
+        <div className={styles.loading}>Watches Not Created Yet</div>
       ) : (
         <div className={styles["watch-grid"]}>
           {watches.map((watch) => (
