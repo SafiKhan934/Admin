@@ -76,7 +76,7 @@ function AdminDashboard() {
 
                 <div className={styles.price}>
                   <span className={styles.original}>
-                    ${watch.price.original}
+                    PKR{watch.price.original}
                   </span>
                   <span className={styles.discount}>
                     PKR{watch.price.discount}
