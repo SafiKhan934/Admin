@@ -79,7 +79,7 @@ function AdminDashboard() {
                     ${watch.price.original}
                   </span>
                   <span className={styles.discount}>
-                    ${watch.price.discount}
+                    PKR{watch.price.discount}
                   </span>
                 </div>
 
