@@ -7,7 +7,10 @@
   padding: 30px 20px;
   font-family: serif;
 }
-
+.loading h1{
+  color:white !important;
+  text-align:center;
+}
 .form {
   background: #313131;
   padding: 30px;
