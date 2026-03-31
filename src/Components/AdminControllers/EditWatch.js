@@ -115,7 +115,7 @@ function EditWatch() {
     }
   }
 
-  if (loading) return <div className={styles.loading}>Loading watch...</div>
+  if (loading) return <div className={styles.loading}><h1>Loading watch...</h1></div>
 
   return (
     <div className={styles.container}>
